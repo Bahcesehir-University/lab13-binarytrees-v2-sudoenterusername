@@ -238,7 +238,7 @@ int bSearchTreeType<T>::nodeCount(nodeType<T>* p) const {
 ************************************************************/
 template <class T>
 int bSearchTreeType<T>::treeLeavesCount() const {
-    leavesCount(root);
+    return leavesCount(root);
 }
 
 template <class T>
